@@ -24,7 +24,7 @@ void loop() {
 
   caracter = Serial.read();
 
-  if (caracter == 'w') { // Para frente
+  if (caracter == 'f') { // Para frente
 
     digitalWrite(2, LOW);
     digitalWrite(3, HIGH);
@@ -33,7 +33,7 @@ void loop() {
 
   }
 
-  if (caracter == 's') { // Re
+  if (caracter == 'b') { // Re
 
     digitalWrite(2, HIGH);
     digitalWrite(3, LOW);
@@ -60,7 +60,7 @@ void loop() {
 
   }
 
-  if (caracter == 'e') { // Parar
+  if (caracter == 's') { // Parar
 
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
